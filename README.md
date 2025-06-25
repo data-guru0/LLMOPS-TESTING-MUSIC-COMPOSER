@@ -12,3 +12,5 @@ Compose a gentle lullaby on solo piano in C major with soft, repetitive motifs t
 Dockerfile and Kuberntes File
 
 Code Versionning using GITLAB
+
+Gitlab CI -Cd YAML
