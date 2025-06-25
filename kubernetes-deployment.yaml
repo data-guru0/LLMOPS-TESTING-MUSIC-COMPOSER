@@ -37,4 +37,4 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 8501
-  type: LoadBalancers
+  type: LoadBalancer
