@@ -16,7 +16,7 @@ spec:
       - name: llmops-app
         image: us-central1-docker.pkg.dev/gen-lang-client-0729539659/llmops-repo/llmops-app:latest
         ports:
-        - containerPort: 5000
+        - containerPort: 8501
         env:
         - name: GROQ_API_KEY
           valueFrom:
@@ -36,5 +36,5 @@ spec:
   ports:
     - protocol: TCP
       port: 80
-      targetPort: 5000
+      targetPort: 8501
   type: LoadBalancers
